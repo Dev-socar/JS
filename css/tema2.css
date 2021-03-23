@@ -1,0 +1,27 @@
+#logo{
+    background:rgb(11, 0, 105);
+}
+#menu ul li:hover{
+    background:rgb(52, 72, 187);
+}
+.button-more{
+    background:rgb(52, 72, 187);
+}
+#global{
+    background:rgb(73, 70, 236);
+}
+.post p{
+    color:honeydew;
+}
+#sidebar p{
+    color:honeydew;
+}
+#sidebar h4{
+    color: honeydew;
+}
+#as label{
+    color: honeydew;
+}
+.post h2{
+   color:honeydew;
+}

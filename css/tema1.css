@@ -1,0 +1,13 @@
+
+#logo{
+    background:rgb(255, 0, 0);
+}
+#menu ul li:hover{
+    background:rgb(209, 63, 63);
+}
+.button-more{
+    background:rgb(209, 63, 63);
+}
+#global{
+    background:rgb(241, 220, 220);
+}

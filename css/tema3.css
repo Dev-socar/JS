@@ -1,0 +1,12 @@
+#logo{
+    background:rgb(107, 27, 128);
+}
+#menu ul li:hover{
+    background:rgb(154, 95, 231);
+}
+.button-more{
+    background:rgb(154, 95, 231);
+}
+#global{
+    background:rgb(205, 114, 228);
+}

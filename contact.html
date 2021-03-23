@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Marvel</title>
+    <meta charset="UTF-8" />
+
+    <!--Estilos css-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link id="theme" rel="Stylesheet" type="text/css" href="css/tema1.css" />
+
+    <!--Scripts para el slider-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css" />
+    <link
+      rel="stylesheet"
+      href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css"
+    />
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css" />
+    <script
+      type="text/javascript"
+      src="js/jquery-ui-1.12.1/jquery-ui.min.js"
+    ></script>
+
+    <!-- Plugin Validacion-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="ct">
+      <div id="t1"></div>
+      <div id="t2"></div>
+      <div id="t3"></div>
+    </div>
+
+    <section id="global">
+      <!--Cabecera-->
+      <header>
+        <div id="logo">
+          <h1>MARVEL</h1>
+        </div>
+        <div class="clearfix"></div>
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="clock.html">CLOCK</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--Contenido-->
+      <section id="content">
+        <div id="box">
+          <!-- Cargar formulario-->
+          <h2>Contacto</h2>
+          <form action="" method="POST" id="contact">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" data-validation="alphanumeric" />
+            <label for="suname">Apellidos</label>
+            <input type="text" name="suname" data-validation="alphanumeric" />
+            <label>Email</label>
+            <input type="email" name="email" data-validation="email" />
+            <label for="sex">Sexo</label>
+            <select name="sex" data-validation="required">
+              <option value="men">Hombre</option>
+              <option value="woman">Mujer</option>
+              <option value="noDefine">No definido</option>
+            </select>
+            <label>Fecha de nacimiento</label>
+            <input
+              type="text"
+              name="date"
+              data-validation="date"
+              data-validation-format="dd-mm-yyyy"
+            />
+            <label for="age">Edad</label>
+            <input type="number" name="age" data-validation="number" />
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
+
+        <aside id="sidebar">
+          <div id="about">
+            <h4>Who I am?</h4>
+            <img src="img/om.png" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              vehicula vitae eros ut euismod. Cras cursus molestie arcu bibendum
+              suscipit. Cras aliquam sapien a sagittis consectetur.
+            </p>
+          </div>
+          <div id="login">
+            <h4>Login</h4>
+            <form id="as">
+              <label for="name"> Name </label>
+              <input type="text" name="name" id="nombre" />
+              <label for="email"> Email </label>
+              <input type="text" name="email" id="correo" />
+              <label for="password"> Password </label>
+              <input type="password" name="password" id="contra" />
+              <input type="submit" value="Entrar" />
+            </form>
+          </div>
+        </aside>
+        <div class="clearfix"></div>
+      </section>
+    </section>
+    <footer>
+      UCM por Omar Solís &reg; &copy;
+      <a href="#" class="up">Go up</a>
+    </footer>
+  </body>
+</html>
