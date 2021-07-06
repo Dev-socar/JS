@@ -1,0 +1,32 @@
+comandos de git en la terminal
+
+usuario:Dev-socar
+pswd: omarsolis19
+
+git init -> se ejecuta dentro de la carpeta del proyecto, se hace primero alwaysgit status ->Para ver el estado, si hay archivos sin seguimiento aparece
+
+
+git add "filename" -> Para hacerle seguimiento al archivo que deseemos
+
+git commit -m "message" ->Envariarlo al repositorio con un msj descriptivo
+
+git log --oneline ->todos los commits hechos
+
+con el comando anterior se ve un código (cod) nos sirve para ir a una version especifica
+
+git checkout cod->Para ir a una version especifica
+
+git checkout master ->Para ir a la ultima version
+
+git log -> Informacion más detallada de los commits
+
+git show ->historial de cambio de todos los archivos
+
+git add . -> Se agregan todos los archivos modificados
+
+git reset cod --hard ->Regresa a esa version elimina todo el plano
+
+git reset cod --soft ->No se eliminan los archivos
+
+
+
